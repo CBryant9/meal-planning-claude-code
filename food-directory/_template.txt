@@ -1,0 +1,21 @@
+{Product Name}
+Brand: {brand}
+Product Size: {e.g. 160g tub, 700g tub, 40g bar}
+Serving Size: {e.g. 160g, 175g}
+Woolworths ID: {if available}
+Date: {YYYY-MM-DD}
+
+Per 100g:
+  Calories: XXX kcal (XXX kJ)
+  Protein: Xg
+  Fat: Xg
+  Carbs: Xg
+
+Per Serve ({serve size}):
+  Calories: XXX kcal (XXX kJ)
+  Protein: Xg
+  Fat: Xg
+  Carbs: Xg
+
+Source: {where the data came from}
+Notes: {any relevant notes}
