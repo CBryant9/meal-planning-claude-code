@@ -17,7 +17,7 @@ Telegram Bot (n8n/Hostinger) ──┘
                          OpenAI (via n8n)
 ```
 
-## App Structure (`app/`)
+## App Structure (repo root — Next.js project)
 - `src/app/page.tsx` - Home: "What are we cooking today?" + weekly meal plan grid
 - `src/app/food-directory/page.tsx` - Searchable food database
 - `src/app/diary/page.tsx` - Food diary with feel-good/feel-bad tracking
@@ -62,7 +62,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 ## Development
 ```bash
-cd app
+npm install
 npm run dev    # Start dev server
 npm run build  # Production build
 ```

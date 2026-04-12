@@ -40,7 +40,15 @@
       "Bash(npm run:*)",
       "Bash(node_modules/.bin/next build:*)",
       "Bash(ls:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(mv app/.env.local.example app/.gitignore app/eslint.config.mjs app/next.config.ts app/next-env.d.ts app/package.json app/package-lock.json app/postcss.config.mjs app/public app/src app/supabase app/tsconfig.json ./)",
+      "Bash(mv app/README.md ./app-README.md)",
+      "Bash(rm -rf app/.next app/node_modules)",
+      "Bash(rmdir app:*)",
+      "Bash(cp -r app/src ./src)",
+      "Bash(rm -rf app/src)",
+      "Bash(rm -rf app/.next app/node_modules app/src app/README.md)",
+      "Bash(rm -rf app)"
     ]
   }
 }
